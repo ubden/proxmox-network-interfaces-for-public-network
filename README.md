@@ -47,5 +47,5 @@ Proxmox interfaces open to external internet that can be used for Opnsense
 - **YOUR EXT IP GATEWAT -1**   | example **31.155.192.0** --- *delete all ( * )*
 - **YOUR EXT IP NETMASK**   | example **255.255.192.0** --- *delete all ( * )*
 - **YOUR EXT IP GATEWAY WITH CIDR**   | example **31.55.192.1/18** --- *delete all ( * )*
-- **YOUR EXT IP***   | example *31.155.220.204* --- *delete all ( * )*
+- **YOUR EXT IP**   | example *31.155.220.204* --- *delete all ( * )*
 
