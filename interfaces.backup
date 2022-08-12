@@ -1,0 +1,12 @@
+auto lo
+iface lo inet loopback
+
+iface ens18 inet manual
+
+auto vmbr0
+iface vmbr0 inet static
+	address 145.92.89.50/18
+	gateway 145.92.65.2
+	bridge-ports ens18
+	bridge-stp off
+	bridge-fd 0
