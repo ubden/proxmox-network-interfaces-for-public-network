@@ -18,7 +18,7 @@ Proxmox interfaces open to external internet that can be used for Opnsense - by 
 	iface lo inet loopback
 
 	auto *NETWORK DEVICE NAME*
-	iface ens18 inet static
+	iface *NETWORK DEVICE NAME* inet static
 	address *YOUR EXT IP WTIH CIDR*
 	gateway *YOUR EXT IP GATEWAY*
 	up route add -net *YOUR EXT IP GATEWAT -1* netmask *YOUR EXT IP NETMASK* gw "YOUR EXT IP GATEWAY* dev ens18
