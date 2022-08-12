@@ -41,4 +41,4 @@ Proxmox interfaces open to external internet that can be used for Opnsense
 		
 ## User Manual
 
-*** *NETWORK DEVICE NAME* ** example **ens18**
+***NETWORK DEVICE NAME** example **ens18** --- delete all (*)
