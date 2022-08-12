@@ -12,7 +12,7 @@
 auto lo
 iface lo inet loopback
 
-auto **NETWAORK DEVICE NAME**
+auto *NETWAORK DEVICE NAME*
 iface ens18 inet static
 	address *YOUR EXT IP WTIH CIDR*
 	gateway *YOUR EXT IP GATEWAY*
